@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">CodingGuides</string>
+    <string name="name1">Java:</string>
+    <string name="desc1">Head First Java is a beginner-friendly guide to learning Java programming, using an interactive and visual approach to make the concepts easy to understand.</string>
+    <string name="name2">Python</string>
+    <string name="desc2">Python Crash Course is a comprehensive guide to learning Python programming, designed for beginners who want to learn quickly and efficiently.</string>
+    <string name="name3">JavaScript</string>
+    <string name="desc3">Eloquent JavaScript is a comprehensive guide to the JavaScript programming language, with a focus on writing efficient, maintainable, and reusable code.</string>
+    <string name="name4">"Ruby: "</string>
+    <string name="desc4">Learn to Program is an introduction to the Ruby programming language, providing a step-by-step guide for beginners to get started.</string>
+    <string name="name5">C++</string>
+    <string name="desc5">Primer Plus is a comprehensive guide to learning C++ programming, designed for beginners and experienced programmers alike.</string>
+    <string name="name6">Swift</string>
+    <string name="desc6">"Swift Programming: A Step-by-Step Guide is an introduction to the Swift programming language, designed for those with no prior experience. "</string>
+    <string name="name7">Kotlin</string>
+    <string name="desc7">Kotlin in Action is a comprehensive guide to developing applications using the Kotlin programming language, designed for experienced developers.</string>
+    <string name="name8">PHP</string>
+    <string name="desc8"><![CDATA[Learning PHP, MySQL & JavaScript is a beginner-friendly guide to learning PHP, MySQL, and JavaScript, covering the basics of web development.]]></string>
+    <string name="name9">SQL</string>
+    <string name="desc9">SQL for Data Analysis is a guide to using SQL for data analysis, teaching the basics of SQL and how to perform various types of data analysis using SQL.</string>
+    <string name="name10">HTML/CSS</string>
+    <string name="desc10">HTML and CSS: Design and Build Websites is a comprehensive guide to creating websites using HTML and CSS, providing an introduction to web design and development.</string>
+    <string name="name11">React</string>
+    <string name="desc11">React Native: Building Mobile Apps with JavaScript is a guide to developing mobile apps using React Native and JavaScript, providing an introduction to mobile app development.</string>
+    <string name="name12">Angular</string>
+    <string name="desc12">Pro Angular is a comprehensive guide to Angular, a popular JavaScript framework for building dynamic web applications, designed for experienced developers.</string>
+    <string name="name13">VueJs</string>
+    <string name="desc13">Vue.js 2: The Complete Guide is a comprehensive guide to Vue.js, a popular JavaScript framework for building user interfaces, designed for beginners and experienced developers alike.</string>
+    <string name="name14">NodeJS</string>
+    <string name="desc14">" Node.js: Up and Running is a beginner-friendly guide to Node.js, a popular platform for building server-side applications using JavaScript."</string>
+    <string name="name15">Go</string>
+    <string name="desc15">Go in Action is a comprehensive guide to developing applications using the Go programming language, designed for experienced developers.</string>
 </resources>
