@@ -1,13 +1,11 @@
-package com.example.codingguides
+package com.example.codingguides.components
 
-import android.annotation.SuppressLint
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ExpandLess
 import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.runtime.*
@@ -16,10 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.codingguides.data.CodeItem
-import com.example.superhero.R
 
 
 @Composable
@@ -40,7 +36,7 @@ fun EachGuide(CodeItem: CodeItem, modifier: Modifier = Modifier) {
             Text(text = stringResource(CodeItem.nameRes), style = MaterialTheme.typography.h3)
             Box(modifier = Modifier.clip(RoundedCornerShape(10.dp))) {
                 Image(
-                    modifier = Modifier.size(300.dp),
+                    modifier = Modifier.size(200.dp),
                     painter = painterResource(CodeItem.imageRes),
                     contentDescription = null
                 )

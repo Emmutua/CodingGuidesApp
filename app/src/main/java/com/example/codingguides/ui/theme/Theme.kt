@@ -17,6 +17,7 @@ private val LightColorPalette = lightColors(
     primary = white1,
     onPrimary = Black1,
     surface = white2,
+
     onSurface = Black1,
 
     /* Other default colors to override

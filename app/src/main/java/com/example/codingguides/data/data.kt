@@ -12,7 +12,7 @@ data class CodeItem(
 )
 
 object ListOfCodeItems{
-    val CodeItem = listOf(
+    val CodeItems = listOf(
         CodeItem(R.string.name1,R.drawable.day1,R.string.desc1),
         CodeItem(R.string.name2,R.drawable.day2,R.string.desc2),
         CodeItem(R.string.name3,R.drawable.day3,R.string.desc3),
