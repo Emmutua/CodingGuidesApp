@@ -2,7 +2,8 @@ package com.example.codingguides.data
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.example.codingguides.R
+import com.example.superhero.R
+
 
 data class CodeItem(
    @StringRes val nameRes : Int,
