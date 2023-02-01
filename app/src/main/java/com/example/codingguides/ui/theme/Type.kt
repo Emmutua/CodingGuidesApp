@@ -10,8 +10,8 @@ import com.example.superhero.R
 
 
 val myFont = FontFamily(
-    Font(R.font.sriacha_regular, FontWeight.Normal),
-    Font(R.font.unbounded_bold, FontWeight.Bold)
+    Font(R.font.unbounded_bold, FontWeight.Bold),
+    Font(R.font.sriacha_regular, FontWeight.Normal)
 )
 val Typography = Typography(
     defaultFontFamily = myFont,

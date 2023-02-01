@@ -22,7 +22,7 @@ import com.example.superhero.R
 @Composable
 fun AppBarCompose(modifier: Modifier = Modifier) {
     Row(
-        modifier = Modifier.background(MaterialTheme.colors.primary).fillMaxWidth(),
+        modifier = Modifier.background(MaterialTheme.colors.surface).fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Image(

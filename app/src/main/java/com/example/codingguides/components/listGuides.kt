@@ -26,17 +26,17 @@ fun EachGuide(CodeItem: CodeItem, modifier: Modifier = Modifier) {
     Card(
         modifier = Modifier
             .padding(8.dp)
-            .background(MaterialTheme.colors.surface), elevation = 2.dp
+            .background(MaterialTheme.colors.surface).sizeIn(350.dp), elevation = 2.dp
     ) {
         Column(
-            modifier = Modifier.padding(8.dp),
+            modifier = Modifier.padding(8.dp).sizeIn(maxWidth = 70.dp).background(MaterialTheme.colors.surface),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
             Text(text = stringResource(CodeItem.nameRes), style = MaterialTheme.typography.h3)
-            Box(modifier = Modifier.clip(RoundedCornerShape(10.dp))) {
+            Box(modifier = Modifier.clip(RoundedCornerShape(10.dp)).size(300.dp)) {
                 Image(
-                    modifier = Modifier.size(200.dp),
+                    modifier = Modifier.fillMaxSize(),
                     painter = painterResource(CodeItem.imageRes),
                     contentDescription = null
                 )
@@ -48,7 +48,12 @@ fun EachGuide(CodeItem: CodeItem, modifier: Modifier = Modifier) {
 
             }
             if (expanded) {
-                Text(text = stringResource(CodeItem.descRes), style = MaterialTheme.typography.body1)
+                Column (modifier = Modifier.fillMaxWidth(1f)){
+                    Text(
+                        text = stringResource(CodeItem.descRes),
+                        style = MaterialTheme.typography.body1
+                    )
+                }
             }
         }
     }
