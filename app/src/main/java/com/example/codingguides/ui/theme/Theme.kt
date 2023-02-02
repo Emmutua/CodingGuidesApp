@@ -1,5 +1,6 @@
 package com.example.codingguides.ui.theme
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
@@ -21,6 +22,7 @@ private val LightColors = lightColors(
 )
 
 
+@SuppressLint("ConflictingOnColor")
 private val DarkColors = darkColors(
     primary = md_theme_dark_primary,
     onPrimary = md_theme_dark_onPrimary,
@@ -47,6 +49,8 @@ fun AppTheme(
 
   MaterialTheme(
     colors = colors,
+      shapes = Shapes,
+      typography = Typography,
     content = content
   )
 }
